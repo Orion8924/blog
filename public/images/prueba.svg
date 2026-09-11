@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Horizonte sobre el mar">
+  <defs>
+    <linearGradient id="cielo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9d9c2"/><stop offset="0.55" stop-color="#d8a982"/><stop offset="1" stop-color="#b96a55"/>
+    </linearGradient>
+    <linearGradient id="mar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b5f7a"/><stop offset="1" stop-color="#1f3546"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="560" fill="url(#cielo)"/>
+  <circle cx="1080" cy="470" r="70" fill="#f4e1b8" opacity="0.9"/>
+  <rect y="560" width="1600" height="340" fill="url(#mar)"/>
+  <path d="M0 620 Q 200 600 400 620 T 800 620 T 1200 620 T 1600 620 V 640 Q 1400 660 1200 640 T 800 640 T 400 640 T 0 640 Z" fill="#6e8ea6" opacity="0.35"/>
+</svg>

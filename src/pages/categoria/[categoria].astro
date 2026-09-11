@@ -1,0 +1,30 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { CATEGORIAS, NOMBRES_CATEGORIA } from '../../content.config';
+
+export async function getStaticPaths() {
+  return CATEGORIAS.map((categoria) => ({ params: { categoria } }));
+}
+
+const { categoria } = Astro.params as { categoria: (typeof CATEGORIAS)[number] };
+const base = import.meta.env.BASE_URL;
+const nombre = NOMBRES_CATEGORIA[categoria];
+const articulos = (await getCollection('blog', ({ data }) => !data.borrador && data.categoria === categoria))
+  .sort((a, b) => b.data.fecha.valueOf() - a.data.fecha.valueOf());
+const fmt = (d: Date) => d.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
+---
+<Base titulo={`${nombre} — Emilio Ávila`} categoriaActual={categoria}>
+  <main class="portada">
+    <h1 style="margin:3rem 0 0;font-size:1.6rem;font-weight:600">{nombre}</h1>
+    {articulos.length === 0 && <p class="meta">Todavía no hay artículos en esta categoría.</p>}
+    {articulos.map((a) => (
+      <a class="entrada" href={`${base}${a.id}/`}>
+        <img src={`${base}${a.data.imagen.replace(/^\//, '')}`} alt={a.data.imagenAlt} loading="lazy" />
+        <h2>{a.data.titulo}</h2>
+        <p>{a.data.resumen}</p>
+        <div class="meta">{fmt(a.data.fecha)}</div>
+      </a>
+    ))}
+  </main>
+</Base>

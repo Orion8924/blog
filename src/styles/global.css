@@ -1,0 +1,84 @@
+:root {
+  --papel: #fbfaf7;
+  --tinta: #1e2126;
+  --tinta-suave: #5a5f66;
+  --linea: #dcd9d1;
+  --acento: #1c4e80;
+  --medida: 66ch;
+  --ancho-foto: 1120px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --papel: #16181c;
+    --tinta: #e8e6e1;
+    --tinta-suave: #a2a5ab;
+    --linea: #2d3138;
+    --acento: #8fb4dc;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html {
+  background: var(--papel);
+  color: var(--tinta);
+  font-family: "Literata", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  font-size: 19px;
+  line-height: 1.6;
+  -webkit-text-size-adjust: 100%;
+}
+
+body { margin: 0; }
+
+a { color: var(--acento); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:focus-visible { outline: 2px solid var(--acento); outline-offset: 3px; }
+
+/* Cabecera y pie */
+.cabecera, .pie {
+  max-width: var(--ancho-foto);
+  margin: 0 auto;
+  padding: 1.4rem 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.cabecera { border-bottom: 1px solid var(--linea); }
+.pie { border-top: 1px solid var(--linea); color: var(--tinta-suave); font-size: 0.85rem; margin-top: 4rem; }
+.marca { font-size: 1.15rem; font-weight: 600; color: var(--tinta); text-decoration: none; letter-spacing: -0.01em; }
+.categorias { display: flex; gap: 1.1rem; font-size: 0.9rem; flex-wrap: wrap; }
+.categorias a { color: var(--tinta-suave); text-decoration: none; }
+.categorias a[aria-current="page"], .categorias a:hover { color: var(--tinta); text-decoration: underline; }
+
+/* Portada */
+.portada { max-width: var(--ancho-foto); margin: 0 auto; padding: 0 1.2rem; }
+.entrada { display: block; text-decoration: none; color: inherit; margin: 3rem 0; }
+.entrada img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; border-radius: 2px; }
+.entrada h2 { font-size: 1.9rem; line-height: 1.15; margin: 1.2rem 0 0.5rem; letter-spacing: -0.015em; font-weight: 600; }
+.entrada p { margin: 0; color: var(--tinta-suave); max-width: var(--medida); }
+.meta { font-size: 0.85rem; color: var(--tinta-suave); margin-top: 0.7rem; }
+.meta a { color: inherit; }
+.portada .entrada + .entrada { border-top: 1px solid var(--linea); padding-top: 3rem; }
+
+/* Artículo */
+.articulo-cabecera { max-width: var(--medida); margin: 3.5rem auto 2rem; padding: 0 1.2rem; }
+.articulo-cabecera h1 { font-size: clamp(2rem, 5vw, 3rem); line-height: 1.08; margin: 0.4rem 0 1rem; letter-spacing: -0.02em; font-weight: 600; }
+.articulo-cabecera .resumen { font-size: 1.15rem; color: var(--tinta-suave); margin: 0; line-height: 1.45; }
+.foto-grande { max-width: var(--ancho-foto); margin: 2.5rem auto; padding: 0 1.2rem; }
+.foto-grande img { width: 100%; max-height: 72vh; object-fit: cover; display: block; border-radius: 2px; }
+.foto-grande figcaption { font-size: 0.8rem; color: var(--tinta-suave); margin-top: 0.5rem; }
+.prosa { max-width: var(--medida); margin: 0 auto; padding: 0 1.2rem; }
+.prosa p { margin: 0 0 1.4em; }
+.prosa h2 { font-size: 1.45rem; margin: 2.4em 0 0.7em; line-height: 1.25; font-weight: 600; }
+.prosa h3 { font-size: 1.15rem; margin: 2em 0 0.5em; font-weight: 600; }
+.prosa blockquote { margin: 2em 0; padding-left: 1.2rem; border-left: 3px solid var(--acento); font-style: italic; color: var(--tinta-suave); }
+.prosa img { max-width: 100%; height: auto; }
+.prosa hr { border: 0; border-top: 1px solid var(--linea); margin: 3em 0; }
+.prosa code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.85em; background: rgba(127,127,127,0.12); padding: 0.1em 0.35em; border-radius: 3px; }
+.prosa pre { padding: 1rem; overflow-x: auto; border-radius: 4px; font-size: 0.85rem; }
+.prosa pre code { background: none; padding: 0; }
+
+@media (max-width: 600px) { html { font-size: 17.5px; } }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }

@@ -1,13 +1,14 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 
-export const CATEGORIAS = ['fe', 'libertad', 'tecnologia', 'historia', 'personal'] as const;
+export const CATEGORIAS = ['fe', 'libertad', 'tecnologia', 'historia', 'rusia', 'personal'] as const;
 
 export const NOMBRES_CATEGORIA: Record<(typeof CATEGORIAS)[number], string> = {
   fe: 'Fe',
   libertad: 'Libertad',
   tecnologia: 'Tecnología',
   historia: 'Historia',
+  rusia: 'Rusia',
   personal: 'Personal',
 };
 

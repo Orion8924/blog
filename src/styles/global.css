@@ -82,3 +82,8 @@ a:focus-visible { outline: 2px solid var(--acento); outline-offset: 3px; }
 
 @media (max-width: 600px) { html { font-size: 17.5px; } }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+
+/* Fotos dentro del artículo */
+.prosa figure { margin: 2.6em 0; }
+.prosa figure img { width: 100%; height: auto; display: block; border-radius: 2px; }
+.prosa figcaption { font-size: 0.8rem; color: var(--tinta-suave); margin-top: 0.5rem; }

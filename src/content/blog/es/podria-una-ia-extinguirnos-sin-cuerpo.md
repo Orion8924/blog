@@ -250,7 +250,7 @@ Pero la comparación contiene dos resonancias interesantes.
 
 La primera tiene que ver con la **desmesura**.
 
-El [Catecismo de la Iglesia Católica](https://www.vatican.va/archive/catechism_sp/p1s1c2a1_sp.html) interpreta la pluralidad de las naciones posterior a Babel como un límite al orgullo de una humanidad caída que pretende construir por sí misma su propia unidad.
+El [Catecismo de la Iglesia Católica](https://www.vatican.va/archive/catechism_sp/p1s1c2a1_sp.html) (n. 57) interpreta la pluralidad de las naciones posterior a Babel como un límite al orgullo de una humanidad caída que pretende construir por sí misma su propia unidad.
 
 La advertencia puede formularse de manera bastante modesta para nuestro problema:
 

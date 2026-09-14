@@ -250,7 +250,7 @@ But the comparison contains two interesting resonances.
 
 The first has to do with **hubris**.
 
-The [Catechism of the Catholic Church](https://www.vatican.va/archive/ENG0015/__PG.HTM) interprets the plurality of nations after Babel as a limit on the pride of a fallen humanity that seeks to forge its own unity by itself.
+The [Catechism of the Catholic Church](https://www.vatican.va/archive/ENG0015/__PG.HTM) (no. 57) interprets the plurality of nations after Babel as a limit on the pride of a fallen humanity that seeks to forge its own unity by itself.
 
 The warning can be put quite modestly for our problem:
 

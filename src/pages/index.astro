@@ -1,22 +1,4 @@
 ---
-import { getCollection } from 'astro:content';
-import Base from '../layouts/Base.astro';
-import { NOMBRES_CATEGORIA } from '../content.config';
-
-const base = import.meta.env.BASE_URL;
-const articulos = (await getCollection('blog', ({ data }) => !data.borrador))
-  .sort((a, b) => b.data.fecha.valueOf() - a.data.fecha.valueOf());
-const fmt = (d: Date) => d.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
+import Portada from '../components/Portada.astro';
 ---
-<Base titulo="Emilio Ávila">
-  <main class="portada">
-    {articulos.map((a) => (
-      <a class="entrada" href={`${base}${a.id}/`}>
-        <img src={`${base}${a.data.imagen.replace(/^\//, '')}`} alt={a.data.imagenAlt} loading="lazy" />
-        <h2>{a.data.titulo}</h2>
-        <p>{a.data.resumen}</p>
-        <div class="meta">{NOMBRES_CATEGORIA[a.data.categoria]} — {fmt(a.data.fecha)}</div>
-      </a>
-    ))}
-  </main>
-</Base>
+<Portada idioma="es" />

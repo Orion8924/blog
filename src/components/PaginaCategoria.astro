@@ -1,0 +1,19 @@
+---
+import Base from '../layouts/Base.astro';
+import ListaArticulos from './ListaArticulos.astro';
+import type { CATEGORIAS } from '../content.config';
+import { CATEGORIAS_I18N, IDIOMAS, TEXTOS, prefijo, type Idioma } from '../i18n';
+
+interface Props { idioma: Idioma; categoria: (typeof CATEGORIAS)[number] }
+const { idioma, categoria } = Astro.props;
+const nombre = CATEGORIAS_I18N[idioma][categoria];
+const alternativas = Object.fromEntries(IDIOMAS.map((i) => [i, `${prefijo(i)}categoria/${categoria}/`]));
+---
+<Base titulo={`${nombre} — Emilio Ávila`} categoriaActual={categoria} idioma={idioma} alternativas={alternativas}>
+  <main class="portada">
+    <h1 style="margin:3rem 0 0;font-size:1.6rem;font-weight:600">{nombre}</h1>
+    <ListaArticulos idioma={idioma} categoria={categoria} mostrarCategoria={false}>
+      <p class="meta">{TEXTOS[idioma].sinArticulos}</p>
+    </ListaArticulos>
+  </main>
+</Base>

@@ -25,3 +25,11 @@ Se cambian en `src/content.config.ts` (lista `CATEGORIAS` y nombres visibles).
 
 ## Local
 `npm install` · `npm run dev` · `npm run build`
+
+## Idiomas
+
+- Los artículos viven en `src/content/blog/<idioma>/<slug>.md`, con `<idioma>` = `es`, `en` o `ru`.
+- El español se publica en la raíz (`/blog/<slug>/`); inglés y ruso en `/blog/en/<slug>/` y `/blog/ru/<slug>/`.
+- Una traducción es un archivo con **el mismo slug** en otra carpeta. El selector de idioma de la cabecera y las etiquetas `hreflang` se generan solos a partir de eso; si no existe traducción, no se muestra.
+- Las imágenes se comparten entre idiomas (`public/images/`); solo cambian `imagenAlt` e `imagenCredito` en el frontmatter.
+- Los textos de la plantilla y los nombres de categoría por idioma están en `src/i18n.ts`.

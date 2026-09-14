@@ -1,0 +1,15 @@
+---
+import { getCollection } from 'astro:content';
+import Articulo from '../../components/Articulo.astro';
+import { partirId } from '../../i18n';
+
+export async function getStaticPaths() {
+  const articulos = await getCollection('blog', ({ id, data }) => !data.borrador && partirId(id).idioma !== 'es');
+  return articulos.map((a) => {
+    const { idioma, slug } = partirId(a.id);
+    return { params: { idioma, slug }, props: { articulo: a } };
+  });
+}
+const { articulo } = Astro.props;
+---
+<Articulo articulo={articulo} />

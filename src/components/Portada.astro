@@ -1,0 +1,16 @@
+---
+import Base from '../layouts/Base.astro';
+import ListaArticulos from './ListaArticulos.astro';
+import { IDIOMAS, TEXTOS, prefijo, type Idioma } from '../i18n';
+
+interface Props { idioma: Idioma }
+const { idioma } = Astro.props;
+const alternativas = Object.fromEntries(IDIOMAS.map((i) => [i, prefijo(i)]));
+---
+<Base titulo="Emilio Ávila" idioma={idioma} alternativas={alternativas}>
+  <main class="portada">
+    <ListaArticulos idioma={idioma}>
+      <p class="meta" style="margin-top:3rem">{TEXTOS[idioma].sinArticulosIdioma}</p>
+    </ListaArticulos>
+  </main>
+</Base>

@@ -87,3 +87,8 @@ a:focus-visible { outline: 2px solid var(--acento); outline-offset: 3px; }
 .prosa figure { margin: 2.6em 0; }
 .prosa figure img { width: 100%; height: auto; display: block; border-radius: 2px; }
 .prosa figcaption { font-size: 0.8rem; color: var(--tinta-suave); margin-top: 0.5rem; }
+
+/* Selector de idioma */
+.idiomas { display: flex; gap: 0.9rem; font-size: 0.85rem; margin-left: auto; }
+.idiomas a { color: var(--tinta-suave); text-decoration: none; }
+.idiomas a:hover { color: var(--tinta); text-decoration: underline; }

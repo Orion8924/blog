@@ -1,14 +1,27 @@
 ---
 import '../styles/global.css';
-import { CATEGORIAS, NOMBRES_CATEGORIA } from '../content.config';
+import { CATEGORIAS } from '../content.config';
+import { CATEGORIAS_I18N, IDIOMAS, NOMBRES_IDIOMA, TEXTOS, prefijo, type Idioma } from '../i18n';
 
-interface Props { titulo: string; descripcion?: string; imagen?: string; categoriaActual?: string; }
-const { titulo, descripcion = 'Artículos de Emilio Ávila', imagen, categoriaActual } = Astro.props;
+interface Props {
+  titulo: string;
+  descripcion?: string;
+  imagen?: string;
+  categoriaActual?: string;
+  idioma?: Idioma;
+  /** Rutas (relativas a BASE_URL, sin barra inicial) de esta misma página en otros idiomas. */
+  alternativas?: Partial<Record<Idioma, string>>;
+}
+const { titulo, imagen, categoriaActual, idioma = 'es', alternativas = {} } = Astro.props;
+const descripcion = Astro.props.descripcion ?? TEXTOS[idioma].descripcion;
 const base = import.meta.env.BASE_URL;
 const ogImagen = imagen ? new URL(base + imagen.replace(/^\//, ''), Astro.site) : undefined;
+const nombres = CATEGORIAS_I18N[idioma];
+const t = TEXTOS[idioma];
+const otrosIdiomas = IDIOMAS.filter((i) => i !== idioma && alternativas[i] !== undefined);
 ---
 <!doctype html>
-<html lang="es">
+<html lang={idioma}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -16,24 +29,35 @@ const ogImagen = imagen ? new URL(base + imagen.replace(/^\//, ''), Astro.site) 
     <meta name="description" content={descripcion} />
     <meta property="og:title" content={titulo} />
     <meta property="og:description" content={descripcion} />
+    <meta property="og:locale" content={idioma} />
     {ogImagen && <meta property="og:image" content={ogImagen} />}
+    {IDIOMAS.filter((i) => alternativas[i] !== undefined).map((i) => (
+      <link rel="alternate" hreflang={i} href={new URL(base + alternativas[i], Astro.site)} />
+    ))}
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap" rel="stylesheet" />
   </head>
   <body>
     <header class="cabecera">
-      <a class="marca" href={base}>Emilio Ávila</a>
-      <nav class="categorias" aria-label="Categorías">
+      <a class="marca" href={`${base}${prefijo(idioma)}`}>Emilio Ávila</a>
+      <nav class="categorias" aria-label={t.categorias}>
         {CATEGORIAS.map((c) => (
-          <a href={`${base}categoria/${c}/`} aria-current={c === categoriaActual ? 'page' : undefined}>{NOMBRES_CATEGORIA[c]}</a>
+          <a href={`${base}${prefijo(idioma)}categoria/${c}/`} aria-current={c === categoriaActual ? 'page' : undefined}>{nombres[c]}</a>
         ))}
       </nav>
+      {otrosIdiomas.length > 0 && (
+        <nav class="idiomas" aria-label={t.idiomas}>
+          {otrosIdiomas.map((i) => (
+            <a href={`${base}${alternativas[i]}`} hreflang={i} lang={i}>{NOMBRES_IDIOMA[i]}</a>
+          ))}
+        </nav>
+      )}
     </header>
     <slot />
     <footer class="pie">
       <span>© {new Date().getFullYear()} Emilio Ávila</span>
-      <span>Hecho con Astro</span>
+      <span>{t.hechoCon}</span>
     </footer>
   </body>
 </html>

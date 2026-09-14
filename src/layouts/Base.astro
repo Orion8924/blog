@@ -34,6 +34,7 @@ const otrosIdiomas = IDIOMAS.filter((i) => i !== idioma && alternativas[i] !== u
     {IDIOMAS.filter((i) => alternativas[i] !== undefined).map((i) => (
       <link rel="alternate" hreflang={i} href={new URL(base + alternativas[i], Astro.site)} />
     ))}
+    <script data-goatcounter="https://emilioavila.goatcounter.com/count" async src="//gc.zgo.at/count.js" is:inline></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap" rel="stylesheet" />

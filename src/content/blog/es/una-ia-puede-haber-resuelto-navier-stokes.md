@@ -4,8 +4,8 @@ resumen: "OpenAI ha presentado una demostración de uno de los grandes problemas
 fecha: 2026-09-17
 categoria: ciencia
 imagen: /images/navier-stokes-portada.jpg
-imagenAlt: "PENDIENTE"
-imagenCredito: "PENDIENTE"
+imagenAlt: "Calle de vórtices de von Kármán formada en las nubes junto a las islas Juan Fernández, vista por satélite"
+imagenCredito: "Robert Cahalan, NASA/GSFC, vía Wikimedia Commons"
 ---
 
 OpenAI ha presentado una demostración de uno de los grandes problemas abiertos de las matemáticas. Si supera el escrutinio de la comunidad, sería el segundo de los siete Problemas del Milenio en caer. ¿Qué se ha resuelto exactamente? ¿Cómo ha podido hacerlo una IA? ¿Y nos dice este caso algo sobre cuál podría ser el siguiente?
@@ -53,6 +53,11 @@ Seguiría abierta otra cuestión distinta y todavía más fuerte: si una singula
 Pero ése sería otro problema.
 
 ## Miles de agentes investigando a la vez
+
+<figure>
+  <img src="/blog/images/navier-stokes-agentes.jpg" alt="Pasillo entre armarios de servidores en una gran sala de equipos" loading="lazy" />
+  <figcaption>Foto de İsmail Enes Ayhan en Unsplash</figcaption>
+</figure>
 
 Probablemente lo más interesante de la historia sea cómo se llegó a la demostración.
 
@@ -163,6 +168,11 @@ Si se confirma, mostrará que una IA puede utilizar el conocimiento humano exist
 La gran incógnita es si también puede inventar por sí sola los marcos conceptuales que permiten abrir caminos completamente nuevos.
 
 ## ¿Qué son los Problemas del Milenio?
+
+<figure>
+  <img src="/blog/images/navier-stokes-riemann.jpg" alt="Primera página del manuscrito de Bernhard Riemann de 1859 sobre los números primos" loading="lazy" />
+  <figcaption>Manuscrito de Riemann (1859), Biblioteca de Göttingen, vía Clay Mathematics Institute</figcaption>
+</figure>
 
 En el año 2000, el Clay Mathematics Institute seleccionó siete problemas que representaban algunas de las grandes fronteras abiertas de las matemáticas y reservó siete millones de dólares: uno por cada problema.
 

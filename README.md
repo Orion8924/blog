@@ -10,7 +10,7 @@ Astro + GitHub Pages. Publicado en https://orion8924.github.io/blog/
    titulo: "Título"
    resumen: "Una o dos frases."
    fecha: 2026-09-11
-   categoria: fe          # fe | libertad | tecnologia | historia | personal
+   categoria: fe          # fe | libertad | tecnologia | historia | rusia | ciencia | personal
    imagen: /images/mi-foto.jpg
    imagenAlt: "Descripción de la foto"
    imagenCredito: "Foto: ..."   # opcional

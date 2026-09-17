@@ -11,9 +11,9 @@ export const NOMBRES_IDIOMA: Record<Idioma, string> = { es: 'Español', en: 'Eng
 export const LOCALES: Record<Idioma, string> = { es: 'es-ES', en: 'en-GB', ru: 'ru-RU' };
 
 export const CATEGORIAS_I18N: Record<Idioma, Record<Categoria, string>> = {
-  es: { fe: 'Fe', libertad: 'Libertad', tecnologia: 'Tecnología', historia: 'Historia', rusia: 'Rusia', personal: 'Personal' },
-  en: { fe: 'Faith', libertad: 'Liberty', tecnologia: 'Technology', historia: 'History', rusia: 'Russia', personal: 'Personal' },
-  ru: { fe: 'Вера', libertad: 'Свобода', tecnologia: 'Технологии', historia: 'История', rusia: 'Россия', personal: 'Личное' },
+  es: { fe: 'Fe', libertad: 'Libertad', tecnologia: 'Tecnología', historia: 'Historia', rusia: 'Rusia', ciencia: 'Ciencia', personal: 'Personal' },
+  en: { fe: 'Faith', libertad: 'Liberty', tecnologia: 'Technology', historia: 'History', rusia: 'Russia', ciencia: 'Science', personal: 'Personal' },
+  ru: { fe: 'Вера', libertad: 'Свобода', tecnologia: 'Технологии', historia: 'История', rusia: 'Россия', ciencia: 'Наука', personal: 'Личное' },
 };
 
 export const TEXTOS: Record<Idioma, { descripcion: string; sinArticulos: string; sinArticulosIdioma: string; hechoCon: string; categorias: string; idiomas: string }> = {

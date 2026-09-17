@@ -4,8 +4,8 @@ resumen: "OpenAI has presented a proof of one of the great open problems in math
 fecha: 2026-09-17
 categoria: ciencia
 imagen: /images/navier-stokes-portada.jpg
-imagenAlt: "PENDING"
-imagenCredito: "PENDING"
+imagenAlt: "A von Kármán vortex street formed in the clouds near the Juan Fernández Islands, seen from a satellite"
+imagenCredito: "Robert Cahalan, NASA/GSFC, via Wikimedia Commons"
 ---
 
 OpenAI has presented a proof of one of the great open problems in mathematics. If it survives scrutiny by the community, it would be the second of the seven Millennium Prize Problems to fall. What exactly has been solved? How could an AI do it? And does this case tell us anything about which one could be next?
@@ -53,6 +53,11 @@ A different and even stronger question would remain open: whether such a singula
 But that would be another problem.
 
 ## Thousands of agents researching at once
+
+<figure>
+  <img src="/blog/images/navier-stokes-agentes.jpg" alt="Aisle between rows of server cabinets in a large equipment hall" loading="lazy" />
+  <figcaption>Photo by İsmail Enes Ayhan on Unsplash</figcaption>
+</figure>
 
 Probably the most interesting part of the story is how the proof was reached.
 
@@ -163,6 +168,11 @@ If confirmed, it will show that an AI can take existing human knowledge as its s
 The great unknown is whether it can also invent, on its own, the conceptual frameworks that open completely new paths.
 
 ## What are the Millennium Prize Problems?
+
+<figure>
+  <img src="/blog/images/navier-stokes-riemann.jpg" alt="First page of Bernhard Riemann's 1859 manuscript on the prime numbers" loading="lazy" />
+  <figcaption>Riemann's 1859 manuscript, Göttingen State and University Library, via the Clay Mathematics Institute</figcaption>
+</figure>
 
 In 2000, the Clay Mathematics Institute selected seven problems representing some of the great open frontiers of mathematics and set aside seven million dollars: one for each problem.
 

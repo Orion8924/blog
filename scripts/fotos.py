@@ -39,8 +39,9 @@ def limpiar(texto, maximo=70):
     if len(texto) <= maximo:
         return texto
     corte = texto[:maximo]
-    if "," in corte[20:]:  # créditos multilingües larguísimos: quedarse con el primero
-        return corte[: 20 + corte[20:].index(",")].strip()
+    for sep in (" / ", ","):  # créditos larguísimos: quedarse con la primera parte
+        if sep in corte[15:]:
+            return corte[: 15 + corte[15:].index(sep)].strip()
     return corte[:-1].rstrip() + "…"
 
 

@@ -33,10 +33,15 @@ def pedir(url, cabeceras=None, binario=False):
     return datos if binario else json.loads(datos.decode("utf-8"))
 
 
-def limpiar(texto, maximo=90):
+def limpiar(texto, maximo=70):
     texto = re.sub(r"<[^>]+>", "", texto or "")
     texto = re.sub(r"\s+", " ", html.unescape(texto)).strip()
-    return texto if len(texto) <= maximo else texto[: maximo - 1].rstrip() + "…"
+    if len(texto) <= maximo:
+        return texto
+    corte = texto[:maximo]
+    if "," in corte[20:]:  # créditos multilingües larguísimos: quedarse con el primero
+        return corte[: 20 + corte[20:].index(",")].strip()
+    return corte[:-1].rstrip() + "…"
 
 
 def licencia_valida(nombre):
@@ -47,11 +52,12 @@ def licencia_valida(nombre):
 
 
 # ---------------------------------------------------------------- Wikimedia
-def _candidata_commons(pagina, horizontal=True):
+def _candidata_commons(pagina, horizontal=True, permitir_png=False):
     ii = (pagina.get("imageinfo") or [{}])[0]
     meta = ii.get("extmetadata") or {}
     lic = limpiar(meta.get("LicenseShortName", {}).get("value", ""))
-    if ii.get("mime") not in ("image/jpeg", "image/png"):
+    # Solo JPEG: en Commons los PNG suelen ser gráficos y diagramas, no fotos.
+    if ii.get("mime") != "image/jpeg" and not (permitir_png and ii.get("mime") == "image/png"):
         return None
     if not licencia_valida(lic):
         return None
@@ -73,7 +79,7 @@ def _candidata_commons(pagina, horizontal=True):
     }
 
 
-def _info_commons(params, horizontal=True):
+def _info_commons(params, horizontal=True, permitir_png=False):
     base = {
         "action": "query", "format": "json", "prop": "imageinfo",
         "iiprop": "url|size|mime|extmetadata", "iiurlwidth": str(ANCHO),
@@ -81,13 +87,13 @@ def _info_commons(params, horizontal=True):
     url = "https://commons.wikimedia.org/w/api.php?" + urllib.parse.urlencode({**base, **params})
     paginas = list((pedir(url).get("query") or {}).get("pages", {}).values())
     paginas.sort(key=lambda p: p.get("index", 0))
-    return [c for c in (_candidata_commons(p, horizontal) for p in paginas) if c]
+    return [c for c in (_candidata_commons(p, horizontal, permitir_png) for p in paginas) if c]
 
 
 def buscar_wikimedia(consulta):
     return _info_commons({
         "generator": "search", "gsrnamespace": "6", "gsrlimit": "20",
-        "gsrsearch": f"{consulta} filetype:bitmap filew:>1200",
+        "gsrsearch": f"{consulta} filemime:image/jpeg filew:>1200",
     })
 
 
@@ -136,7 +142,7 @@ def desde_url(url, autor):
     """Foto elegida a mano: página de Commons, página de Unsplash o imagen directa."""
     m = re.search(r"commons\.wikimedia\.org/wiki/(File:[^?#]+)", url)
     if m:
-        return _info_commons({"titles": urllib.parse.unquote(m.group(1))}, horizontal=False)
+        return _info_commons({"titles": urllib.parse.unquote(m.group(1))}, horizontal=False, permitir_png=True)
     m = re.search(r"unsplash\.com/(?:[a-z]{2}/)?(?:photos|fotos)/(?:[^/?#]*-)?([A-Za-z0-9_-]{11})(?:[/?#]|$)", url)
     if m and CLAVE_UNSPLASH:
         f = pedir(f"https://api.unsplash.com/photos/{m.group(1)}",

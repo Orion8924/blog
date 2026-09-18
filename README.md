@@ -33,3 +33,29 @@ Se cambian en `src/content.config.ts` (lista `CATEGORIAS` y nombres visibles).
 - Una traducción es un archivo con **el mismo slug** en otra carpeta. El selector de idioma de la cabecera y las etiquetas `hreflang` se generan solos a partir de eso; si no existe traducción, no se muestra.
 - Las imágenes se comparten entre idiomas (`public/images/`); solo cambian `imagenAlt` e `imagenCredito` en el frontmatter.
 - Los textos de la plantilla y los nombres de categoría por idioma están en `src/i18n.ts`.
+
+## Fotos automáticas
+
+Al subir una rama `articulo-<algo>`, la acción `fotos.yml` ejecuta `scripts/fotos.py` (sin IA, sin dependencias), coloca las fotos, comprueba que el blog compila, fusiona en `main` y despliega. Una rama `prueba-fotos-<algo>` hace lo mismo sin fusionar.
+
+**Portada** (en la cabecera del `.md` en español, en lugar de `imagen:`):
+```
+imagenFuente: wikimedia        # wikimedia | wikipedia | unsplash
+imagenBuscar: "Drosophila brain connectome"
+imagenPlanB: "Drosophila melanogaster"
+imagenUrl: "https://commons.wikimedia.org/wiki/File:…"   # opcional: foto elegida a mano
+imagenAutor: "EC - Audiovisual Service"                  # solo si imagenUrl es una imagen directa
+imagenAlt: "Descripción"
+```
+
+**Fotos del cuerpo** (una línea donde deba ir la foto):
+```
+<!-- foto: id=cables | fuente=unsplash | buscar="server cables" | plan_b="network" | alt="Descripción" -->
+```
+En las traducciones basta `<!-- foto: id=cables | alt="Description" -->` y no poner `imagen:`; se reutiliza la misma foto con el crédito en su idioma.
+
+- `wikimedia`: busca en Commons (lugares, objetos, eventos, ciencia). `wikipedia`: foto principal del artículo de Wikipedia con ese título (personas). `unsplash`: fotos conceptuales; se enlazan desde su servidor, como piden sus normas.
+- Solo se aceptan dominio público, CC0, CC BY y CC BY-SA, con autor conocido. El crédito se escribe solo.
+- Si no aparece la portada, la acción falla y no publica. Si falta una foto del cuerpo, se quita el hueco y se avisa en el resumen de la ejecución.
+- `scripts/fotos-registro.json` guarda qué foto se usó en cada hueco (origen, autor, licencia) y evita repetir fotos entre artículos.
+- Necesita el secreto `UNSPLASH_ACCESS_KEY` (Settings → Secrets and variables → Actions).

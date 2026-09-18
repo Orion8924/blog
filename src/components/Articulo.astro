@@ -27,7 +27,7 @@ for (const v of versiones) {
       <p class="resumen">{d.resumen}</p>
     </header>
     <figure class="foto-grande">
-      <img src={`${base}${d.imagen.replace(/^\//, '')}`} alt={d.imagenAlt} />
+      <img src={/^https?:/.test(d.imagen) ? d.imagen : `${base}${d.imagen.replace(/^\//, '')}`} alt={d.imagenAlt} />
       {d.imagenCredito && <figcaption>{d.imagenCredito}</figcaption>}
     </figure>
     <div class="prosa"><Content /></div>

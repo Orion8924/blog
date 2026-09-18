@@ -11,7 +11,7 @@ const articulos = (await getCollection('blog', ({ id, data }) =>
 ---
 {articulos.map((a) => (
   <a class="entrada" href={`${base}${prefijo(idioma)}${partirId(a.id).slug}/`}>
-    <img src={`${base}${a.data.imagen.replace(/^\//, '')}`} alt={a.data.imagenAlt} loading="lazy" />
+    <img src={/^https?:/.test(a.data.imagen) ? a.data.imagen : `${base}${a.data.imagen.replace(/^\//, '')}`} alt={a.data.imagenAlt} loading="lazy" />
     <h2>{a.data.titulo}</h2>
     <p>{a.data.resumen}</p>
     <div class="meta">{mostrarCategoria ? `${CATEGORIAS_I18N[idioma][a.data.categoria]} — ` : ''}{formatearFecha(a.data.fecha, idioma)}</div>

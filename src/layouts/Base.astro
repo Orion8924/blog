@@ -15,7 +15,7 @@ interface Props {
 const { titulo, imagen, categoriaActual, idioma = 'es', alternativas = {} } = Astro.props;
 const descripcion = Astro.props.descripcion ?? TEXTOS[idioma].descripcion;
 const base = import.meta.env.BASE_URL;
-const ogImagen = imagen ? new URL(base + imagen.replace(/^\//, ''), Astro.site) : undefined;
+const ogImagen = imagen ? (/^https?:/.test(imagen) ? new URL(imagen) : new URL(base + imagen.replace(/^\//, ''), Astro.site)) : undefined;
 const nombres = CATEGORIAS_I18N[idioma];
 const t = TEXTOS[idioma];
 const otrosIdiomas = IDIOMAS.filter((i) => i !== idioma && alternativas[i] !== undefined);

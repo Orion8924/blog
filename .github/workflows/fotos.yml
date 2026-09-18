@@ -1,0 +1,58 @@
+name: Fotos y publicación
+
+# Al subir una rama «articulo-…», busca las fotos, comprueba que el blog
+# compila, fusiona en main y lanza el despliegue. Sin IA: es un script.
+# Las ramas «prueba-fotos-…» hacen lo mismo pero sin fusionar.
+
+on:
+  push:
+    branches: ['articulo-**', 'prueba-fotos-**']
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: fotos-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  fotos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Buscar y colocar fotos
+        env:
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+        run: python3 scripts/fotos.py
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Comprobar que el blog compila
+        run: npm ci && npm run build
+
+      - name: Guardar las fotos en la rama
+        run: |
+          git config user.name "Fotos (GitHub Actions)"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A src public scripts/fotos-registro.json
+          git diff --cached --quiet || git commit -m "Fotos automáticas"
+          git push origin HEAD:${{ github.ref_name }}
+
+      - name: Publicar (fusionar en main y desplegar)
+        if: startsWith(github.ref_name, 'articulo-')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git fetch origin main
+          git checkout -B main origin/main
+          git merge --no-ff "origin/${{ github.ref_name }}" -m "Publicar ${{ github.ref_name }}"
+          git push origin main
+          gh workflow run deploy.yml --ref main
+          git push origin --delete "${{ github.ref_name }}"

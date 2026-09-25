@@ -3,10 +3,9 @@ titulo: "Tener razón no siempre es suficiente"
 resumen: "El caso de Maricarmen, entre el derecho de propiedad y la moral"
 fecha: 2026-09-25
 categoria: libertad
-imagenFuente: wikimedia
-imagenBuscar: "Madrid residential building balconies facade"
-imagenPlanB: "Madrid apartment building balconies"
 imagenAlt: "Fachada de un edificio clásico de viviendas en Madrid"
+imagen: "/images/tener-razon-no-siempre-es-suficiente-portada.jpg"
+imagenCredito: "Jorge Láscar from Australia, CC BY 2.0, vía Wikimedia Commons"
 ---
 
 El pasado 23 de septiembre, Maricarmen, de 87 años, salió en camilla de la vivienda madrileña en la que había vivido durante aproximadamente setenta años. Las imágenes eran difíciles de ver sin sentir cierta incomodidad: una anciana con movilidad reducida, una ambulancia esperando, policías ejecutando una orden judicial y una multitud protestando en la calle.
@@ -55,7 +54,10 @@ Maricarmen ganó inicialmente.
 
 En enero de 2022, el Juzgado de Primera Instancia número 90 de Madrid rechazó la demanda de desahucio. Entre otras circunstancias, tuvo en cuenta que los anteriores propietarios habían tolerado durante años la continuidad del arrendamiento.
 
-<!-- foto: id=tribunal-supremo | fuente=wikimedia | buscar="Palacio de las Salesas Reales Tribunal Supremo Madrid" | plan_b="Tribunal Supremo España sede" | alt="Palacio de las Salesas Reales, sede del Tribunal Supremo, en Madrid" -->
+<figure>
+  <img src="/blog/images/tener-razon-no-siempre-es-suficiente-tribunal-supremo.jpg" alt="Palacio de las Salesas Reales, sede del Tribunal Supremo, en Madrid" loading="lazy" />
+  <figcaption>Bernard Gagnon, CC BY-SA 4.0, vía Wikimedia Commons</figcaption>
+</figure>
 
 Pero la Audiencia Provincial revocó aquella decisión en junio de 2022. Consideró que aceptar la subrogación de Maricarmen no equivalía a aceptar que esta fuese vitalicia.
 
@@ -171,7 +173,10 @@ Precisamente una solución de ese tipo es la que ahora se está intentando const
 
 ## Lo legal no agota lo moral
 
-<!-- foto: id=llaves-puerta | fuente=unsplash | buscar="old door keys" | plan_b="old wooden door" | alt="Unas llaves antiguas en la cerradura de una puerta" -->
+<figure>
+  <img src="https://images.unsplash.com/photo-1585914641050-fa9883c4e21c?ixid=M3wxMDczNDQwfDB8MXxzZWFyY2h8MXx8b2xkJTIwZG9vciUyMGtleXN8ZW58MXwwfHx8MTc5MDM0Nzk5MXww&amp;ixlib=rb-4.1.0&amp;w=1600&amp;q=80&amp;auto=format&amp;fit=crop" alt="Unas llaves antiguas en la cerradura de una puerta" loading="lazy" />
+  <figcaption>Foto de Jaye Haych en Unsplash</figcaption>
+</figure>
 
 Aquí es donde, para mí, entra el cristianismo.
 

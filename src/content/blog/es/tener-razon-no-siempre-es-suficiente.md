@@ -1,5 +1,5 @@
 ---
-titulo: "El caso Maricarmen: tener razón no siempre es suficiente"
+titulo: "El caso Maricarmen: la propiedad tenía razón. ¿Basta con eso?"
 resumen: "El caso de Maricarmen, entre el derecho de propiedad y la moral"
 fecha: 2026-09-25
 categoria: libertad
@@ -8,7 +8,7 @@ imagen: "/images/tener-razon-no-siempre-es-suficiente-portada.jpg"
 imagenCredito: "Zarateman, CC0, vía Wikimedia Commons"
 ---
 
-El pasado 23 de septiembre, Maricarmen, de 87 años, salió en camilla de la vivienda madrileña en la que había vivido durante aproximadamente setenta años. Las imágenes eran difíciles de ver sin sentir cierta incomodidad: una anciana con movilidad reducida, una ambulancia esperando, policías ejecutando una orden judicial y una multitud protestando en la calle.
+El pasado 23 de septiembre, Maricarmen, de 87 años, [salió en camilla](https://www.elespanol.com/madrid/sociedad/20260923/urbagestion-empresa-desahuciado-maricarmen-madrid-negaron-darle-horas-sacar-cosas/1003744393722_0.html) de la vivienda madrileña en la que había vivido durante aproximadamente setenta años. Las imágenes eran difíciles de ver sin sentir cierta incomodidad: una anciana con movilidad reducida, una ambulancia esperando, policías ejecutando una orden judicial y una multitud protestando en la calle.
 
 La reacción más inmediata es comprensible: ¿cómo puede alguien echar de su casa a una mujer de 87 años?
 
@@ -30,7 +30,7 @@ No basta con responder que el propietario aceptó aquellas condiciones. Una cosa
 
 Hay además una consecuencia que trasciende al propietario concreto. Cuanto mayor sea el riesgo de alquilar una vivienda y después no poder recuperarla durante décadas, mayores pueden ser los incentivos para retirarla del mercado, seleccionar con más cautela al inquilino o exigir una compensación mayor por ese riesgo.
 
-Un conocido estudio sobre la ampliación del control de alquileres en San Francisco encontró precisamente un efecto de este tipo: los propietarios afectados redujeron aproximadamente un 15 % la oferta de vivienda de alquiler. Al mismo tiempo, la regulación redujo el desplazamiento de los inquilinos protegidos.
+[Un conocido estudio](https://www.aeaweb.org/articles?id=10.1257/aer.20181289) sobre la ampliación del control de alquileres en San Francisco encontró precisamente un efecto de este tipo: los propietarios afectados redujeron aproximadamente un 15 % la oferta de vivienda de alquiler. Al mismo tiempo, la regulación redujo el desplazamiento de los inquilinos protegidos.
 
 Un solo estudio no resuelve una discusión tan amplia. Sí muestra el tipo de intercambio que puede producirse: aumentar la seguridad de quien ya está dentro puede generar costes para quienes intentan acceder después a una vivienda.
 
@@ -105,7 +105,7 @@ Durante estos días se ha denominado repetidamente a Urbagestión «fondo buitre
 
 Conviene ser más precisos.
 
-Urbagestión Desarrollo e Inversión no es jurídicamente un fondo de inversión. Se presenta como una pequeña empresa dedicada, entre otras actividades, a la inversión y gestión de activos inmobiliarios. La compañía ha protestado expresamente contra la utilización de aquella etiqueta.
+Urbagestión Desarrollo e Inversión no es jurídicamente un fondo de inversión. Se presenta como una pequeña empresa dedicada, entre otras actividades, a la inversión y gestión de activos inmobiliarios. La compañía [ha protestado expresamente](https://www.eldiario.es/economia/detras-urbagestion-fondo-desahuciado-maricarmen-niega-buitre_1_13532315.html) contra la utilización de aquella etiqueta.
 
 Nada de ello modifica quién tenía razón en el procedimiento judicial.
 
@@ -141,13 +141,13 @@ Poco antes del lanzamiento apareció una nueva posibilidad.
 
 Una escritora que prefirió permanecer anónima se ofreció a aportar el dinero necesario para que Maricarmen pudiera afrontar una renta superior. Maricarmen continuaría pagando aproximadamente los 500 euros que venía abonando y la donante asumiría la diferencia. La propuesta no consiguió detener el desahucio.
 
-También hubo contactos con el Ministerio de Vivienda y con Casa 47, pero aquí las versiones son contradictorias.
+También hubo contactos con el Ministerio de Vivienda y con Casa 47, pero aquí [las versiones son contradictorias](https://www.elboletin.com/el-desahucio-de-maricarmen-da-un-giro-urbagestion-propone-ahora-que-vuelva-al-piso/).
 
 El Ministerio sostiene que intentó encontrar una fórmula de compra o alquiler. Urbagestión afirma que nunca recibió una oferta formal de compra y que lo que existieron fueron contactos o propuestas que no llegaron a concretarse suficientemente. La empresa asegura que una oferta formal habría sido estudiada.
 
 Con la información disponible no parece prudente convertir ninguna de esas versiones en un hecho indiscutido.
 
-El caso de James Rhodes requiere además una precisión importante. El pianista contó públicamente que estaba dispuesto a pagar un alquiler e incluso a estudiar la compra de la vivienda. Urbagestión sostiene que recibió sus dos correos después de que el desahucio ya hubiese sido ejecutado: uno el mismo 23 de septiembre a las 14:29 y otro al día siguiente. Si esa cronología es correcta, su propuesta no puede utilizarse como una oportunidad que la empresa tuviera antes del lanzamiento y rechazara para seguir adelante con él.
+El caso de James Rhodes requiere además una precisión importante. El pianista contó públicamente que estaba dispuesto a pagar un alquiler e incluso a estudiar la compra de la vivienda. Urbagestión sostiene que [recibió sus dos correos](https://www.elboletin.com/el-desahucio-de-maricarmen-da-un-giro-urbagestion-propone-ahora-que-vuelva-al-piso/) después de que el desahucio ya hubiese sido ejecutado: uno el mismo 23 de septiembre a las 14:29 y otro al día siguiente. Si esa cronología es correcta, su propuesta no puede utilizarse como una oportunidad que la empresa tuviera antes del lanzamiento y rechazara para seguir adelante con él.
 
 Sí hubo intentos de encontrar una solución.
 
@@ -159,7 +159,7 @@ Y ninguno consiguió evitar que Maricarmen abandonara la vivienda.
 
 Dos días después del lanzamiento surgió una posibilidad nueva.
 
-Urbagestión propuso al Ayuntamiento de Madrid incorporar el piso al programa Reviva de la Empresa Municipal de la Vivienda y Suelo, con el objetivo declarado de que Maricarmen pudiera regresar mediante una solución estable y asequible. En la última información disponible en el momento de escribir estas líneas, el Ayuntamiento todavía no había respondido.
+Urbagestión [propuso al Ayuntamiento de Madrid](https://www.eleconomista.es/vivienda-inmobiliario/noticias/14016668/09/26/urbagestion-presenta-al-ayuntamiento-de-madrid-una-propuesta-de-urgencia-para-que-maricarmen-abascal-pueda-regresar-a-la-vivienda-de-retiro.html) incorporar el piso al programa Reviva de la Empresa Municipal de la Vivienda y Suelo, con el objetivo declarado de que Maricarmen pudiera regresar mediante una solución estable y asequible. En la última información disponible en el momento de escribir estas líneas, el Ayuntamiento todavía no había respondido.
 
 Si termina materializándose y Maricarmen puede regresar, será una buena noticia.
 
@@ -180,13 +180,13 @@ Precisamente una solución de ese tipo es la que ahora se está intentando const
 
 Aquí es donde, para mí, entra el cristianismo.
 
-La tradición católica reconoce la legitimidad de la propiedad privada y también la obligación de respetar los contratos y los compromisos adquiridos.
+La tradición católica [reconoce la legitimidad de la propiedad privada](https://www.vatican.va/archive/catechism_sp/p3s2c2a7_sp.html) y también la obligación de respetar los contratos y los compromisos adquiridos.
 
 No hay nada particularmente cristiano en incumplir un contrato simplemente porque hacerlo produzca una escena dolorosa.
 
 Pero el pensamiento cristiano tampoco termina ahí.
 
-La propiedad privada no agota el juicio moral sobre el uso de aquello que poseemos. La tradición católica recuerda también el destino universal de los bienes y las responsabilidades que acompañan a su posesión.
+La propiedad privada no agota el juicio moral sobre el uso de aquello que poseemos. La tradición católica recuerda también el [destino universal de los bienes](https://www.vatican.va/archive/catechism_sp/p3s2c2a7_sp.html) y las responsabilidades que acompañan a su posesión. El [Catecismo](https://www.vatican.va/archive/catechism_sp/p3s2c2a7_sp.html) lo expresa con una imagen muy precisa: la propiedad de un bien hace de su dueño un «administrador de la providencia».
 
 Por eso creo que pueden mantenerse simultáneamente dos ideas.
 
@@ -240,10 +240,3 @@ Y quizá, algunas veces, renunciar voluntariamente a una parte de aquello que le
 
 Quizá sea precisamente una de las formas más profundas de ejercerla.
 
-## Fuentes
-
-- Infobae, 23 de septiembre de 2026: [crónica del desahucio de Maricarmen](https://www.infobae.com/espana/2026/09/23/el-fondo-buitre-urbagestion-desahucia-en-madrid-a-maricarmen-la-vecina-de-87-anos-que-se-ha-convertido-en-simbolo-de-la-crisis-de-vivienda/)
-- elDiario.es: [quién está detrás de Urbagestión](https://www.eldiario.es/economia/detras-urbagestion-fondo-desahuciado-maricarmen-niega-buitre_1_13532315.html)
-- elEconomista, 25 de septiembre de 2026: [propuesta de Urbagestión al Ayuntamiento (programa Reviva)](https://www.eleconomista.es/vivienda-inmobiliario/noticias/14016668/09/26/urbagestion-presenta-al-ayuntamiento-de-madrid-una-propuesta-de-urgencia-para-que-maricarmen-abascal-pueda-regresar-a-la-vivienda-de-retiro.html)
-- El Boletín: [las versiones enfrentadas y la cronología de los correos de James Rhodes](https://www.elboletin.com/el-desahucio-de-maricarmen-da-un-giro-urbagestion-propone-ahora-que-vuelva-al-piso/)
-- Diamond, McQuade y Qian (2019), «The Effects of Rent Control Expansion on Tenants, Landlords, and Inequality: Evidence from San Francisco», *American Economic Review* 109(9).

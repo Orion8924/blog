@@ -1,5 +1,5 @@
 ---
-titulo: "Tener razón no siempre es suficiente"
+titulo: "El caso Maricarmen: tener razón no siempre es suficiente"
 resumen: "El caso de Maricarmen, entre el derecho de propiedad y la moral"
 fecha: 2026-09-25
 categoria: libertad

@@ -6,5 +6,21 @@
     "autor": "Jaye Haych",
     "licencia": "Unsplash",
     "origen": "https://unsplash.com/photos/black-and-silver-padlock-on-white-door-7tkDoo2L_Eg"
+  },
+  "tener-razon-no-siempre-es-suficiente/portada": {
+    "imagen": "/images/tener-razon-no-siempre-es-suficiente-portada.jpg",
+    "fuente": "wikimedia",
+    "id": "File:Madrid - Viviendas para Julián Martínez Mier (Calle de Almagro 38) 08.jpg",
+    "autor": "Zarateman",
+    "licencia": "CC0",
+    "origen": "https://commons.wikimedia.org/wiki/File:Madrid_-_Viviendas_para_Juli%C3%A1n_Mart%C3%ADnez_Mier_(Calle_de_Almagro_38)_08.jpg"
+  },
+  "tener-razon-no-siempre-es-suficiente/tribunal-supremo": {
+    "imagen": "/images/tener-razon-no-siempre-es-suficiente-tribunal-supremo.jpg",
+    "fuente": "wikimedia",
+    "id": "File:Tribunal Supremo, Madrid.jpg",
+    "autor": "FDV",
+    "licencia": "CC BY-SA 3.0",
+    "origen": "https://commons.wikimedia.org/wiki/File:Tribunal_Supremo,_Madrid.jpg"
   }
 }

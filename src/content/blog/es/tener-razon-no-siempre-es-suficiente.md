@@ -5,7 +5,7 @@ fecha: 2026-09-25
 categoria: libertad
 imagenAlt: "Fachada de un edificio clásico de viviendas en Madrid"
 imagen: "/images/tener-razon-no-siempre-es-suficiente-portada.jpg"
-imagenCredito: "Jorge Láscar from Australia, CC BY 2.0, vía Wikimedia Commons"
+imagenCredito: "Zarateman, CC0, vía Wikimedia Commons"
 ---
 
 El pasado 23 de septiembre, Maricarmen, de 87 años, salió en camilla de la vivienda madrileña en la que había vivido durante aproximadamente setenta años. Las imágenes eran difíciles de ver sin sentir cierta incomodidad: una anciana con movilidad reducida, una ambulancia esperando, policías ejecutando una orden judicial y una multitud protestando en la calle.
@@ -56,7 +56,7 @@ En enero de 2022, el Juzgado de Primera Instancia número 90 de Madrid rechazó 
 
 <figure>
   <img src="/blog/images/tener-razon-no-siempre-es-suficiente-tribunal-supremo.jpg" alt="Palacio de las Salesas Reales, sede del Tribunal Supremo, en Madrid" loading="lazy" />
-  <figcaption>Bernard Gagnon, CC BY-SA 4.0, vía Wikimedia Commons</figcaption>
+  <figcaption>FDV, CC BY-SA 3.0, vía Wikimedia Commons</figcaption>
 </figure>
 
 Pero la Audiencia Provincial revocó aquella decisión en junio de 2022. Consideró que aceptar la subrogación de Maricarmen no equivalía a aceptar que esta fuese vitalicia.

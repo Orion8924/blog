@@ -4,8 +4,7 @@ resumen: "El caso de Maricarmen, entre el derecho de propiedad y la moral"
 fecha: 2026-09-25
 categoria: libertad
 imagenAlt: "Fachada de un edificio clásico de viviendas en Madrid"
-imagen: "/images/tener-razon-no-siempre-es-suficiente-portada.jpg"
-imagenCredito: "Jorge Láscar from Australia, CC BY 2.0, vía Wikimedia Commons"
+imagenUrl: "https://commons.wikimedia.org/wiki/File:Madrid_-_Viviendas_para_Julián_Martínez_Mier_(Calle_de_Almagro_38)_08.jpg"
 ---
 
 El pasado 23 de septiembre, Maricarmen, de 87 años, salió en camilla de la vivienda madrileña en la que había vivido durante aproximadamente setenta años. Las imágenes eran difíciles de ver sin sentir cierta incomodidad: una anciana con movilidad reducida, una ambulancia esperando, policías ejecutando una orden judicial y una multitud protestando en la calle.
@@ -54,10 +53,7 @@ Maricarmen ganó inicialmente.
 
 En enero de 2022, el Juzgado de Primera Instancia número 90 de Madrid rechazó la demanda de desahucio. Entre otras circunstancias, tuvo en cuenta que los anteriores propietarios habían tolerado durante años la continuidad del arrendamiento.
 
-<figure>
-  <img src="/blog/images/tener-razon-no-siempre-es-suficiente-tribunal-supremo.jpg" alt="Palacio de las Salesas Reales, sede del Tribunal Supremo, en Madrid" loading="lazy" />
-  <figcaption>Bernard Gagnon, CC BY-SA 4.0, vía Wikimedia Commons</figcaption>
-</figure>
+<!-- foto: id=tribunal-supremo | url="https://commons.wikimedia.org/wiki/File:Tribunal_Supremo,_Madrid.jpg" | alt="Palacio de las Salesas Reales, sede del Tribunal Supremo, en Madrid" -->
 
 Pero la Audiencia Provincial revocó aquella decisión en junio de 2022. Consideró que aceptar la subrogación de Maricarmen no equivalía a aceptar que esta fuese vitalicia.
 

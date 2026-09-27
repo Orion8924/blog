@@ -30,7 +30,7 @@ Entre su nacimiento, en 1754, y su muerte, en 1838, Francia pasó de la monarqu�
 Talleyrand atravesó prácticamente todos esos mundos políticos.
 
 <figure>
-  <img src="/blog/images/delcy-rodriguez-talleyrand-talleyrand-retrato.jpg" alt="Retrato de Charles-Maurice de Talleyrand-Périgord" loading="lazy" />
+  <img src="/blog/images/delcy-rodriguez-talleyrand-retrato-talleyrand-gerard.jpg" alt="Retrato de Charles-Maurice de Talleyrand-Périgord" loading="lazy" />
   <figcaption>François Gérard, Public domain, vía Wikimedia Commons</figcaption>
 </figure>
 

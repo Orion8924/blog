@@ -3,8 +3,7 @@ titulo: "Delcy Rodríguez, Talleyrand y el arte de sobrevivir al poder"
 resumen: "¿Cómo sobrevive un político a la caída de aquel a quien ha servido?"
 fecha: 2026-09-27
 categoria: historia
-imagen: "/images/delcy-rodriguez-talleyrand-portada.jpg"
-imagenCredito: "François Gérard, CC0, vía Wikimedia Commons"
+imagenUrl: "https://commons.wikimedia.org/wiki/File:Delcy_Rodriguez_y_Donald_Trump.jpg"
 ---
 
 El 22 de septiembre de 2026 se produjo en Nueva York una fotografía difícil de imaginar unos meses antes.
@@ -28,6 +27,8 @@ Talleyrand nació bajo Luis XV. Fue obispo bajo Luis XVI, participó en la Revol
 Entre su nacimiento, en 1754, y su muerte, en 1838, Francia pasó de la monarquía del Antiguo Régimen a una monarquía constitucional; después a la República, el Directorio, el Consulado, el Imperio, la Restauración borbónica, los Cien Días, una segunda Restauración y finalmente la Monarquía de Julio.
 
 Talleyrand atravesó prácticamente todos esos mundos políticos.
+
+<!-- foto: id=talleyrand-retrato | url="https://commons.wikimedia.org/wiki/File:Charles_Maurice_de_Talleyrand_P%C3%A9rigord_(1754%E2%80%931838),_Prince_de_B%C3%A9n%C3%A9vent_MET_DP319507.jpg" | alt="Retrato de Charles-Maurice de Talleyrand-Périgord" -->
 
 ## Un obispo en medio de una revolución
 
@@ -146,10 +147,7 @@ Y, sobre todo, tenía pocos reparos en empezar a preparar el futuro cuando el pr
 
 ## Cuando cayó Napoleón, Talleyrand estaba preparado
 
-<figure>
-  <img src="/blog/images/delcy-rodriguez-talleyrand-congress-of-vienna-isabey-engr.jpg" alt="Los plenipotenciarios del Congreso de Viena, grabado de Jean-Baptiste Isabey" loading="lazy" />
-  <figcaption>engraver Jean Godefroy, after Jean-Baptiste Isabey., Public domain, vía Wikimedia Commons</figcaption>
-</figure>
+<!-- foto: id=congreso-viena | url="https://commons.wikimedia.org/wiki/File:Congress_of_Vienna.PNG" | alt="Los plenipotenciarios del Congreso de Viena, grabado de Jean-Baptiste Isabey" -->
 
 En 1814 las potencias aliadas entraron en Francia.
 

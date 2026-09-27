@@ -1,8 +1,8 @@
 ---
-title: "Delcy Rodríguez, Talleyrand y el arte de sobrevivir al poder"
-description: "¿Cómo sobrevive un político a la caída de aquel a quien ha servido?"
-date: 2026-09-27
-category: historia
+titulo: "Delcy Rodríguez, Talleyrand y el arte de sobrevivir al poder"
+resumen: "¿Cómo sobrevive un político a la caída de aquel a quien ha servido?"
+fecha: 2026-09-27
+categoria: historia
 imagenFuente: "wikimedia"
 imagenBuscar: "Talleyrand portrait François Gérard"
 imagenPlanB: "Charles-Maurice de Talleyrand-Périgord portrait"

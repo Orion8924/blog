@@ -3,9 +3,10 @@ title: "Delcy Rodríguez, Talleyrand y el arte de sobrevivir al poder"
 description: "¿Cómo sobrevive un político a la caída de aquel a quien ha servido?"
 date: 2026-09-27
 category: historia
+imagenFuente: "wikimedia"
+imagenBuscar: "Talleyrand portrait François Gérard"
+imagenPlanB: "Charles-Maurice de Talleyrand-Périgord portrait"
 ---
-
-<!-- foto: portada | fuente=wikimedia | buscar="Talleyrand portrait François Gérard" | plan_b="Charles-Maurice de Talleyrand-Périgord portrait" | alt="Retrato de Charles-Maurice de Talleyrand-Périgord" -->
 
 El 22 de septiembre de 2026 se produjo en Nueva York una fotografía difícil de imaginar unos meses antes.
 

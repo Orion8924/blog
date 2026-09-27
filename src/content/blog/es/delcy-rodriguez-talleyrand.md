@@ -3,9 +3,8 @@ titulo: "Delcy Rodríguez, Talleyrand y el arte de sobrevivir al poder"
 resumen: "¿Cómo sobrevive un político a la caída de aquel a quien ha servido?"
 fecha: 2026-09-27
 categoria: historia
-imagenFuente: "wikimedia"
-imagenBuscar: "Talleyrand portrait François Gérard"
-imagenPlanB: "Charles-Maurice de Talleyrand-Périgord portrait"
+imagen: "/images/delcy-rodriguez-talleyrand-portada.jpg"
+imagenCredito: "François Gérard, CC0, vía Wikimedia Commons"
 ---
 
 El 22 de septiembre de 2026 se produjo en Nueva York una fotografía difícil de imaginar unos meses antes.
@@ -94,7 +93,10 @@ Pero entonces llegó Erfurt.
 
 ## Traicionar a Napoleón para salvar a Francia
 
-<!-- foto: fuente=wikimedia | buscar="Napoleon Alexander I Erfurt 1808 painting" | plan_b="Napoleon Erfurt Congress 1808" | alt="Napoleón y el zar Alejandro I durante el encuentro de Erfurt de 1808" -->
+<figure>
+  <img src="/blog/images/delcy-rodriguez-talleyrand-napoleon-alexander-i-erfurt-18.jpg" alt="Napoleón y el zar Alejandro I durante el encuentro de Erfurt de 1808" loading="lazy" />
+  <figcaption>Nicolas Gosse, Public domain, vía Wikimedia Commons</figcaption>
+</figure>
 
 En 1808 Napoleón se reunió en Erfurt con el zar Alejandro I de Rusia.
 
@@ -144,7 +146,10 @@ Y, sobre todo, tenía pocos reparos en empezar a preparar el futuro cuando el pr
 
 ## Cuando cayó Napoleón, Talleyrand estaba preparado
 
-<!-- foto: fuente=wikimedia | buscar="Congress of Vienna Isabey engraving" | plan_b="Congress of Vienna 1815 painting" | alt="Los plenipotenciarios del Congreso de Viena, grabado de Jean-Baptiste Isabey" -->
+<figure>
+  <img src="/blog/images/delcy-rodriguez-talleyrand-congress-of-vienna-isabey-engr.jpg" alt="Los plenipotenciarios del Congreso de Viena, grabado de Jean-Baptiste Isabey" loading="lazy" />
+  <figcaption>engraver Jean Godefroy, after Jean-Baptiste Isabey., Public domain, vía Wikimedia Commons</figcaption>
+</figure>
 
 En 1814 las potencias aliadas entraron en Francia.
 
@@ -238,7 +243,10 @@ Talleyrand decidía.
 
 ## Y volvemos a Delcy
 
-<!-- foto: fuente=wikimedia | buscar="Delcy Rodríguez 2026" | plan_b="Delcy Rodríguez" | alt="Delcy Rodríguez, presidenta encargada de Venezuela" -->
+<figure>
+  <img src="/blog/images/delcy-rodriguez-talleyrand-delcy-rodríguez-2026.jpg" alt="Delcy Rodríguez, presidenta encargada de Venezuela" loading="lazy" />
+  <figcaption>Eneas De Troya, CC BY 2.0, vía Wikimedia Commons</figcaption>
+</figure>
 
 Dos siglos después podemos regresar a aquella fotografía de Nueva York.
 

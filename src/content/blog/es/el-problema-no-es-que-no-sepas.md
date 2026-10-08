@@ -3,11 +3,9 @@ titulo: "El problema no es que no sepas. Es que crees que sabes."
 resumen: "Conspiraciones, todólogos y el extraño prestigio de tener una opinión sobre todo."
 fecha: 2026-10-09
 categoria: personal
-imagen: ""
-imagenFuente: unsplash
-imagenBuscar: "critical thinking uncertainty"
-imagenPlanB: "person thinking"
+imagen: "https://images.unsplash.com/photo-1620662736427-b8a198f52a4d?ixid=M3wxMDczNDQwfDB8MXxzZWFyY2h8MXx8Y3JpdGljYWwlMjB0aGlua2luZyUyMHVuY2VydGFpbnR5fGVufDF8MHx8fDE3OTE0OTcyMDJ8MA&ixlib=rb-4.1.0&w=1600&q=80&auto=format&fit=crop"
 imagenAlt: "Una persona reflexiona ante una ventana"
+imagenCredito: "Foto de Tingey Injury Law Firm en Unsplash"
 ---
 
 # El problema no es que no sepas. Es que crees que sabes.

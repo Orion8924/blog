@@ -42,6 +42,8 @@ Que dos gobiernos compartan intereses no demuestra que hayan coordinado una oper
 
 **Y que una historia resulte coherente no significa que sea verdadera.**
 
+<!-- foto: id=relato-convincente | fuente=unsplash | buscar="conspiracy theory evidence board" | plan_b="critical thinking evidence" | alt="Una pared con fotografías, notas y conexiones que representa la construcción de un relato aparentemente coherente" -->
+
 Por supuesto, la plausibilidad importa. Cuando intentamos comprender algo, debemos considerar qué explicaciones son razonables. El problema aparece cuando confundimos esa primera evaluación con una demostración.
 
 Una cosa es decir «sospecho que ocurrió esto». Otra, «hay indicios que apuntan en esta dirección». Y otra muy distinta, «sé que ocurrió esto».
@@ -158,6 +160,8 @@ Sin embargo, corre el riesgo de parecer la menos interesante, la menos informada
 
 Hemos convertido tener una opinión en una especie de obligación social. Reconocer que desconocemos algo puede interpretarse como una debilidad, como si significara que no tenemos criterio o que no nos hemos molestado en pensar.
 
+<!-- foto: id=todologos | fuente=unsplash | buscar="television panel discussion studio" | plan_b="people debating television studio" | alt="Un debate televisivo con varios participantes sentados en un plató" -->
+
 Las tertulias y las redes sociales pueden reforzar ese comportamiento. Una afirmación contundente suele ser más fácil de convertir en un titular que una explicación llena de matices. La certeza cabe en una frase; justificar la incertidumbre suele requerir varios párrafos.
 
 Y así podemos terminar premiando no a quien mejor distingue lo que sabe de lo que ignora, sino a quien habla con mayor convencimiento.
@@ -209,6 +213,8 @@ Sócrates, en cambio, reconocía su desconocimiento.
 Su conclusión puede expresarse así:
 
 **«Lo que no sé, tampoco creo saberlo».**
+
+<!-- foto: id=socrates | fuente=wikipedia | buscar="Socrates" | alt="Busto clásico de Sócrates" -->
 
 Me parece una de las ideas más valiosas de toda la filosofía.
 

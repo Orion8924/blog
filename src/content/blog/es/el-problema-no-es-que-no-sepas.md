@@ -42,6 +42,11 @@ Que dos gobiernos compartan intereses no demuestra que hayan coordinado una oper
 
 **Y que una historia resulte coherente no significa que sea verdadera.**
 
+<figure>
+  <img src="https://images.unsplash.com/photo-1603218734550-be7fcffeb817?ixid=M3wxMDczNDQwfDB8MXxzZWFyY2h8MXx8Y29uc3BpcmFjeSUyMHRoZW9yeSUyMGV2aWRlbmNlJTIwYm9hcmR8ZW58MXwwfHx8MTc5MTQ5Nzc1NXww&amp;ixlib=rb-4.1.0&amp;w=1600&amp;q=80&amp;auto=format&amp;fit=crop" alt="Una pared con fotografías, notas y conexiones que representa la construcción de un relato aparentemente coherente" loading="lazy" />
+  <figcaption>Foto de Harald Müller en Unsplash</figcaption>
+</figure>
+
 Por supuesto, la plausibilidad importa. Cuando intentamos comprender algo, debemos considerar qué explicaciones son razonables. El problema aparece cuando confundimos esa primera evaluación con una demostración.
 
 Una cosa es decir «sospecho que ocurrió esto». Otra, «hay indicios que apuntan en esta dirección». Y otra muy distinta, «sé que ocurrió esto».
@@ -158,6 +163,11 @@ Sin embargo, corre el riesgo de parecer la menos interesante, la menos informada
 
 Hemos convertido tener una opinión en una especie de obligación social. Reconocer que desconocemos algo puede interpretarse como una debilidad, como si significara que no tenemos criterio o que no nos hemos molestado en pensar.
 
+<figure>
+  <img src="https://images.unsplash.com/photo-1767455471230-c0957aba5034?ixid=M3wxMDczNDQwfDB8MXxzZWFyY2h8MXx8cGVvcGxlJTIwZGViYXRpbmclMjB0ZWxldmlzaW9uJTIwc3R1ZGlvfGVufDF8MHx8fDE3OTE0OTc3NTZ8MA&amp;ixlib=rb-4.1.0&amp;w=1600&amp;q=80&amp;auto=format&amp;fit=crop" alt="Un debate televisivo con varios participantes sentados en un plató" loading="lazy" />
+  <figcaption>Foto de Invisible en Unsplash</figcaption>
+</figure>
+
 Las tertulias y las redes sociales pueden reforzar ese comportamiento. Una afirmación contundente suele ser más fácil de convertir en un titular que una explicación llena de matices. La certeza cabe en una frase; justificar la incertidumbre suele requerir varios párrafos.
 
 Y así podemos terminar premiando no a quien mejor distingue lo que sabe de lo que ignora, sino a quien habla con mayor convencimiento.
@@ -209,6 +219,11 @@ Sócrates, en cambio, reconocía su desconocimiento.
 Su conclusión puede expresarse así:
 
 **«Lo que no sé, tampoco creo saberlo».**
+
+<figure>
+  <img src="/blog/images/el-problema-no-es-que-no-sepas-socrates.jpg" alt="Busto clásico de Sócrates" loading="lazy" />
+  <figcaption>Copy of Lysippos (?), Public domain, vía Wikimedia Commons</figcaption>
+</figure>
 
 Me parece una de las ideas más valiosas de toda la filosofía.
 
